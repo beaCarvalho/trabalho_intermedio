@@ -27,6 +27,17 @@ padding: 15px 32px;
 }
 
 .button:active{
-	background-color: #292929;
-	
+	background-color: #292929;	
+}
+
+.foot{
+	color: white;
+}
+
+
+
+table{
+
+	width: 100%;
+	text-align: center;
 }
