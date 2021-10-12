@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
     padding: 0;
     width: 100%;
@@ -22,8 +21,6 @@ padding: 15px 32px;
 
 .button:hover{
 	background-color: #171717;
-	
-
 }
 
 .button:active{
@@ -34,10 +31,7 @@ padding: 15px 32px;
 	color: white;
 }
 
-
-
 table{
-
 	width: 100%;
 	text-align: center;
 }
