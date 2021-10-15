@@ -41,3 +41,20 @@ h1, h2{
 	text-align: center;
 }
 
+.pub{  
+  width: 80%;
+}
+
+.name, .date, .title{
+  background-color: #d6d6d6;  
+
+}
+
+.esq{
+  background-color:#c6c6c6;
+  margin: 0.5%;
+}
+
+.dir{
+  background-color: #e8e8e8;
+}
