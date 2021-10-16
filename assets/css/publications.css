@@ -1,17 +1,31 @@
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: Arial;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.header{
+header, footer{
   background-color: black;
-  padding-top: 30px;"
+  width:100%;
+  height:15%; 
+  padding: 5px;
+  position:relative; 
+  
 }
 
-.button{	
+nav, footer ul{
+  margin: 1%;  
+}
+
+nav ul, footer ul{
+  padding: 0%;
+}
+
+nav li, footer li{
+  display: inline;
+}
+
+nav a{
+  text-align: center;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -19,17 +33,26 @@ body{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: black;
 	color: white;
 	font-weight:bold;
 }
 
-.button:hover{
+a:hover{
 	background-color: #171717;
 }
 
-.button:active{
+a:active{
 	background-color: #292929;	
+}
+
+.container-section{
+  margin: 3% 25%;
+  text-align: center; 
+  width: 50%;
+}
+
+article{
+  background-color: blue;
 }
 
 table{
@@ -41,20 +64,17 @@ h1, h2{
 	text-align: center;
 }
 
-.pub{  
-  width: 80%;
+.container-footer{
+    position:relative; 
 }
 
-.name, .date, .title{
-  background-color: #d6d6d6;  
-
+.container-footer ul li{
+  display: inline;
+	color: white;
+  width: 100%;
+  height: 100%;
 }
 
-.esq{
-  background-color:#c6c6c6;
-  margin: 0.5%;
-}
-
-.dir{
-  background-color: #e8e8e8;
+.container-footer a{
+  display: inline;
 }
