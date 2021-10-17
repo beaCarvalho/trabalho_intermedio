@@ -4,35 +4,32 @@
   border-collapse:separate;
   border-radius:6px;
   -moz-border-radius:6px;
-
 }
+
 #date1{
   width: 30%;
   vertical-align:middle;
   font-size: 15px;
-
 }
 
 #description{
   width: 70%;
-
-
-
 }
+
 h4{
   margin: 0px;
   text-align: left;
-
 }
+
 p{
   text-align: justify;
-
 }
 
 
 .hiddenRow{
   border:solid #dedede 1px;
 }
+
 .hiddenRowRemove{
   border-color: #000000;
 }
@@ -45,4 +42,10 @@ td button{
 }
 .glyphicon {
   vertical-align:middle;
+}
+
+.container{
+  text-align: center;
+  margin-top: 5%;
+  width: 60%;
 }

@@ -1,80 +1,58 @@
 *{
-  margin: 0;
-  padding: 0;
-}
-
-header, footer{
-  background-color: black;
-  width:100%;
-  height:15%; 
-  padding: 5px;
-  position:relative; 
-  
-}
-
-nav, footer ul{
-  margin: 1%;  
-}
-
-nav ul, footer ul{
+  margin: 0%;
   padding: 0%;
 }
-
-nav li, footer li{
-  display: inline;
+.navbar{
+  max-width: 100%;
 }
 
-nav a{
+.container{
   text-align: center;
-  padding: 15px 32px;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container p{
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-	color: white;
-	font-weight:bold;
+  margin: 1%;
+  font-size: 12px;
 }
 
-a:hover{
-	background-color: #171717;
+
+.pub{
+  margin-bottom: 5%;
 }
 
-a:active{
-	background-color: #292929;	
-}
-
-.container-section{
-  margin: 3% 25%;
-  text-align: center; 
-  width: 50%;
-}
-
-article{
-  background-color: blue;
-}
-
-table{
-	width: 100%;
-	text-align: center;
-}
-
-h1, h2{
-	text-align: center;
-}
-
-.container-footer{
-    position:relative; 
-}
-
-.container-footer ul li{
-  display: inline;
-	color: white;
+.descricao-article{
+  background-color: rgb(231, 229, 223);
+  border-radius: 5px;
+  margin:  2%;
   width: 100%;
-  height: 100%;
+  align-items: center;
 }
 
-.container-footer a{
-  display: inline;
+.container-descricArticle{
+  background-color: #dedede;
+  border-radius: 5px;
+  padding: 0.5%;
+  justify-content: center;
 }
+
+.anexos{
+  background-color: rgb(155, 155, 248);
+  border-radius: 5px;
+  margin-left: 4%;
+  padding: 3.2%;
+  width: 20%;
+  align-items: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    width: 90%;
+  }

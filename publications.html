@@ -1,90 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt">
 	<head>
-		<link rel="stylesheet" href="./assets/css/publications.css">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="./assets/css/publications.css">
+		<link rel="stylesheet" href="./assets/css/menuFooter.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Publications</title>
 	</head>
 	<body>
 		<header>
-			<nav>
-				<ul>	
-					<li><a href="index.html" >Home</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="teaching.html">Teaching</a></li>
-				</ul>
-			</nav>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+				<div class="container-fluid mx-2 p-3">
+					<br>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link text-white" href="index.html">Home</a>
+					  </li></a>
+					  <li class="nav-item">
+						<a class="nav-link text-white" href="publications.html">Publications</a>
+					  </li></a>
+					  <li class="nav-item">
+						<a class="nav-link text-white" href="projects.html">Projects</a>
+					  </li></a>	
+					  <li class="nav-item">
+						<a class="nav-link text-white" href="teaching.html">Teaching</a>
+					  </li></a>					  
+					</ul>
+				  </div>
+				</div>
+			  </nav>
 		</header>
 		<main>
-			<section>
-				<div class="container-section">
+			<section class="container">
+				<div class="row pub">
 					<h1>Publications</h1>
-					<hr>
+					<hr><p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. 
 					Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet 
-					porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut 
-					dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. 
-					Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa 
-					vehicula eu.
-					<article>
-						<table class="current"><!--article 1-->
-						<br>
-							<td>PDM</td>
-							<td>InfoWeb</td>
-							<td>L</td>
-							<td>21/22</td>
-						</tr>
-						</table>				
-						<br>
-						<h2>Teaching</h2>
-						<br>
-						<h2>Current</h2>
-						<hr>
-					</article>	
-					<article>
-						<table class="current"><!--article 1-->
-						<br>
-							<td>PDM</td>
-							<td>InfoWeb</td>
-							<td>L</td>
-							<td>21/22</td>
-						</tr>
-						</table>				
-						<br>
-						<h2>Teaching</h2>
-						<br>
-						<h2>Current</h2>
-						<hr>
-					</article>
-					<article>
-						<table class="current"><!--article 2-->
-						<br>
-							<td>PDM</td>
-							<td>InfoWeb</td>
-							<td>L</td>
-							<td>21/22</td>
-						</tr>
-						</table>				
-						<br>
-						<h2>Teaching</h2>
-						<br>
-						<h2>Current</h2>
-						<hr>
-					</article>			
+					porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa.</p>
 				</div>
+				<article class="row container-descricArticle"><br><!--article 1-->
+					<div class="col-lg-3 col-md-2 col-sm-2">
+						<div class="row descricao-article"><p>Name</p></div>
+						<div class="row descricao-article"><p>Title</Title></p></div>
+						<div class="row descricao-article"><p>Date</p></div>
+					</div>
+					<div class="col-lg-9 col-md-10 col-sm-10 container-descricArticle" >
+						<div class="row">								
+							<div class="col-3 anexos">pdf</div>
+							<div class="col-3 anexos">GitHub</div>
+							<div class="col-3 anexos">.bib</div>
+							<div class="col-3 anexos">youtube</div>
+						</div>
+					</div>
+				</article>
+				<hr>			
+				<article class="row container-descricArticle"><br><!--article 1-->
+					<div class="col-lg-3 col-md-2 col-sm-2">
+						<div class="row descricao-article"><p>Name</p></div>
+						<div class="row descricao-article"><p>Title</Title></p></div>
+						<div class="row descricao-article"><p>Date</p></div>
+					</div>
+					<div class="col-lg-9 col-md-10 col-sm-10 container-descricArticle" >
+						<div class="row">								
+							<div class="col-3 anexos">pdf</div>
+							<div class="col-3 anexos">GitHub</div>
+							<div class="col-3 anexos">.bib</div>
+							<div class="col-3 anexos">youtube</div>
+						</div>
+					</div>
+				</article>	
+				<hr>	
+				<article class="row container-descricArticle"><br><!--article 1-->
+					<div class="col-lg-3 col-md-2 col-sm-2">
+						<div class="row descricao-article"><p>Name</p></div>
+						<div class="row descricao-article"><p>Title</Title></p></div>
+						<div class="row descricao-article"><p>Date</p></div>
+					</div>
+					<div class="col-lg-9 col-md-10 col-sm-10 container-descricArticle" >
+						<div class="row">								
+							<div class="col-3 anexos">pdf</div>
+							<div class="col-3 anexos">GitHub</div>
+							<div class="col-3 anexos">.bib</div>
+							<div class="col-3 anexos">youtube</div>
+						</div>
+					</div>
+				</article>			
 			</section>
-		</main>	
-		<footer class="container-footer">
-			<ul>
-				<p><a href = "#"><i class="fas fa-at fa-2x"></i><p>user@mail.com</p></a></p>
-				<p><a href = "#"><i class="fab fa-github fa-2x"></i><p >www.url.com</p></p>
-				<p><i class="fas fa-phone-square-alt fa-2x"></i><p>987654321</p>
-				<p><i class="fas fa-building fa-2x"></i><p>Gab.00 at x hours</p>
-			</ul>
+		</main>
+		<footer class="bg-black text-center text-white">
+			<div class="container p-3">
+				<section class="mb-1">
+					<a><i class="fas fa-at fa-2x p-2"><p class="p-2">user@mail.com</p></i></a>
+					<a><i class="fab fa-github fa-2x p-2"><p class="p-2">www.url.com</p></i></a>
+					<a><i class="fas fa-phone-square-alt fa-2x p-2"><p class="p-2">987654321</p></i></a>
+					<a><i class="fas fa-building fa-2x p-2"><p class="p-2">gab.00 at x hours</p></i></a>
+				</section>
+			</div>	
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</body>
 </html>
